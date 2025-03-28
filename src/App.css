@@ -1,6 +1,6 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
+  max-width: 1800px;
+  margin: 0 auto;
   padding: 1.5rem;
 }
 
@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    max-width: 1200px;
   }
 
   .profile {
@@ -29,7 +30,7 @@
     align-items: center;
     gap: 12px;
     border: 1px solid white;
-    border-radius: 24px;
+    border-radius: 6px;
     padding: 16px;
   }
 
@@ -51,7 +52,7 @@
     flex-direction: column;
     gap: 12px;
     border: 1px solid white;
-    border-radius: 24px;
+    border-radius: 6px;
     padding: 16px;
 
     > * {
@@ -65,73 +66,44 @@
     }
   }
 
-  .skills {
+  .exp {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    border: 1px solid white;
-    border-radius: 24px;
-    padding: 16px;
-  }
+    border-radius: 6px;
 
-  .education {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    border: 1px solid white;
-    border-radius: 24px;
-    padding: 16px;
-  }
-
-  .projects {
-    display: flex;
-    /* flex-direction: column; */
-    gap: 12px;
-    border: 1px solid white;
-    border-radius: 24px;
-    padding: 16px;
-
-    .project-one {
+    .exp-one {
       display: flex;
       flex-direction: column;
       gap: 12px;
       border: 1px solid white;
-      border-radius: 24px;
+      border-radius: 6px;
       padding: 16px;
       flex-basis: 50%;
       flex-grow: 1;
     }
 
-    .project-two {
+    .exp-two {
       display: flex;
       flex-direction: column;
       gap: 12px;
       border: 1px solid white;
-      border-radius: 24px;
+      border-radius: 6px;
       padding: 16px;
       flex-basis: 50%;
       flex-grow: 1;
     }
 
-    .project-three {
+    .exp-three {
       display: flex;
       flex-direction: column;
       gap: 12px;
       border: 1px solid white;
-      border-radius: 24px;
+      border-radius: 6px;
       padding: 16px;
       flex-basis: 50%;
       flex-grow: 1;
     }
-  }
-
-  .experience {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    border: 1px solid white;
-    border-radius: 24px;
-    padding: 16px;
   }
 
   .tag-container {
@@ -140,5 +112,11 @@
     justify-content: center;
     gap: 8px;
     flex-wrap: wrap;
+  }
+
+  .lang-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
   }
 }

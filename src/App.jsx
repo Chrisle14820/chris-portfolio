@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin, FaBlog } from "react-icons/fa";
 import Card from "./components/Card";
 import Tag from "./components/Tag";
 import Timeline from "./components/Timeline";
+import RowCard from "./components/RowCard/RowCard";
 
 function App() {
   return (
@@ -59,7 +60,7 @@ function App() {
               <Tag name="JavaScript" />
             </div>
           </Card>
-          <Card header="Experience">
+          <Card header="Experience History">
             <Timeline
               title="Nov 2022 - Present"
               subTitle="Associate Software Developer"
@@ -90,12 +91,149 @@ function App() {
           </Card>
         </div>
         <div className="projects-section">
-          <div className="projects">
-            <div className="project-one"></div>
-            <div className="project-two"></div>
-            <div className="project-three"></div>
-          </div>
-          <div className="experience">Experience History</div>
+          <Card header="Projects"></Card>
+          <Card header="Experience">
+            <div className="exp">
+              <RowCard>
+                <div className="title-container">
+                  <h5>American Airlines</h5>
+                  <p>Nov 2022 - Present</p>
+                </div>
+                <div className="exp-desc">
+                  <ul>
+                    <li>
+                      <p>
+                        Developed framework-agnostic web components for AA.com,
+                        enhancing the user experience resulting in over 20
+                        million interactions per month and driving over $1
+                        billion in sales.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="lang-tags">
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                </div>
+              </RowCard>
+              <RowCard>
+                <div className="title-container">
+                  <h5>American Airlines</h5>
+                  <p>Nov 2022 - Present</p>
+                </div>
+                <div className="exp-desc">
+                  <ul>
+                    <li>
+                      <p>
+                        Developed framework-agnostic web components for AA.com,
+                        enhancing the user experience resulting in over 20
+                        million interactions per month and driving over $1
+                        billion in sales.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="lang-tags">
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                </div>
+              </RowCard>
+              <RowCard>
+                <div className="title-container">
+                  <h5>American Airlines</h5>
+                  <p>Nov 2022 - Present</p>
+                </div>
+                <div className="exp-desc">
+                  <ul>
+                    <li>
+                      <p>
+                        Developed framework-agnostic web components for AA.com,
+                        enhancing the user experience resulting in over 20
+                        million interactions per month and driving over $1
+                        billion in sales.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Implemented monitoring and logging solutions using
+                        Dynatrace and Mezmo, reducing downtime and improving
+                        error detection to enhance system reliability.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="lang-tags">
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                  <Tag name="JavaScript" />
+                </div>
+              </RowCard>
+            </div>
+          </Card>
         </div>
       </div>
     </>
