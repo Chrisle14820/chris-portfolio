@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Tag from "./components/Tag";
 import Timeline from "./components/Timeline";
 import RowCard from "./components/RowCard/RowCard";
+import ProjectCard from "./components/ProjectCard/ProjectCard";
 
 function App() {
   return (
@@ -91,7 +92,15 @@ function App() {
           </Card>
         </div>
         <div className="projects-section">
-          <Card header="Projects"></Card>
+          <Card header="Projects" addButton={true}>
+            <div className="project-card-wrapper">
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
+            </div>
+          </Card>
           <Card header="Experience">
             <div className="exp">
               <RowCard>

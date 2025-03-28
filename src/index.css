@@ -36,3 +36,7 @@ p {
 ul {
   margin: unset;
 }
+
+a {
+  text-decoration: unset;
+}
