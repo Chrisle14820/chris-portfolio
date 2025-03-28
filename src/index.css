@@ -19,3 +19,16 @@
     background-color: #ffffff;
   }
 }
+
+h3 {
+  margin: unset;
+}
+
+h5 {
+  margin: unset;
+}
+
+p {
+  margin: unset;
+  font-size: 12px;
+}
