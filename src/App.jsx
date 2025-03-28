@@ -6,10 +6,12 @@ import Tag from "./components/Tag";
 import Timeline from "./components/Timeline";
 import RowCard from "./components/RowCard/RowCard";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
+      <Header />
       <div className="container">
         <div className="about-section">
           <div className="profile">

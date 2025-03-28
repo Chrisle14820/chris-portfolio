@@ -1,0 +1,31 @@
+.header-container {
+  position: relative;
+  border-bottom: 2px solid white;
+
+  ul {
+    padding-left: unset;
+  }
+
+  .nav-item {
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .nav-container {
+    display: flex;
+
+    .nav-body {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color: white;
+    gap: 4px;
+  }
+}
