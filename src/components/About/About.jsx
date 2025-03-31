@@ -10,7 +10,7 @@ function About() {
     <div className="about-section">
       <div className="profile">
         <div className="profile-pic">
-          <img src="../src/assets/profile-pic.jpg" alt="Profile picture" />
+          <img src="src/assets/profile-pic.jpg" alt="Profile picture" />
         </div>
         <div className="name">Chris Le</div>
         <div className="job-title">
