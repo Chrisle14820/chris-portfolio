@@ -1,0 +1,26 @@
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 10px 15px -3px;
+  background-color: white;
+}
+
+.project-lang {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+}

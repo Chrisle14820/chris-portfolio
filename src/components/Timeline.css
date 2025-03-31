@@ -1,0 +1,28 @@
+.timeline-container {
+  display: flex;
+  position: relative;
+  margin-left: 4px;
+  padding-bottom: 12px;
+}
+
+.timeline-container::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 2px;
+  display: block;
+  content: "";
+  background-color: #3d444db3;
+  z-index: 0;
+}
+
+.timeline-icon {
+  position: relative;
+  right: 7px;
+  z-index: 2;
+  margin-top: 1px;
+}
+
+.timeline-content {
+}
