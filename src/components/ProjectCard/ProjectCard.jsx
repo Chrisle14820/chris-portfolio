@@ -9,13 +9,13 @@ function ProjectCard() {
         <div className="project-body">
           <div className="project-title">
             <VscRepo />
-            <a href="">chris-portfolio</a>
+            <a href="">template-title</a>
           </div>
-          <p>Personal Portfolio built in React</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
         <div className="project-footer">
           <div className="project-lang">
-            <FaCircle color="yellow" /> <p>JavaScript</p>
+            <FaCircle color="yellow" /> <p>templateTag</p>
           </div>
           <div>
             <p>Analytics Coming Soon....</p>

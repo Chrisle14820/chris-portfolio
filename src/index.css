@@ -2,23 +2,26 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  color: #213547;
+  background-color: #e6e5e5;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+  /* background-color: #e6e5e5; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #e6e5e5;
   }
-}
+} */
 
 h3 {
   margin: unset;
@@ -35,8 +38,22 @@ p {
 
 ul {
   margin: unset;
+  list-style-type: none;
+  padding-left: unset;
 }
 
 a {
   text-decoration: unset;
+  color: #4493f8;
 }
+
+/* button {
+  background: none;
+  color: inherit;
+  border: 1px solid inherit;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+} */

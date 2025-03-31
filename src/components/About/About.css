@@ -11,15 +11,17 @@
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  border: 1px solid white;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   padding: 16px;
+  /* background-color: #fff6; */
+  /* box-shadow: 0 10px 15px -3px; */
+  border-bottom: 2px solid white;
 }
 
 .profile-pic {
   max-width: 260px;
   border-radius: 50%; /* Make it a circle */
-  border: 2px solid yellow;
+  border: 2px solid black;
   overflow: hidden;
 
   img {
@@ -33,12 +35,18 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border: 1px solid white;
   border-radius: 6px;
   padding: 16px;
+  background-color: #fff6;
+  box-shadow: 0 10px 15px -3px;
+  border-bottom: 2px solid white;
 
   > * {
     display: flex;
     justify-content: space-between;
+  }
+
+  a {
+    color: inherit;
   }
 }

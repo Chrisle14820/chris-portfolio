@@ -3,6 +3,7 @@ import Card from "../Card";
 import Tag from "../Tag";
 import Timeline from "../Timeline";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
+import { FaDownload } from "react-icons/fa6";
 
 function About() {
   return (
@@ -15,6 +16,13 @@ function About() {
         <div className="job-title">
           Frontend Developer | JavaScript Developer | Project Engineer
         </div>
+        <a
+          className="resume-button"
+          href="../src/assets/ChrisLeResume.pdf"
+          download
+        >
+          <FaDownload /> Download Resume
+        </a>
       </div>
       <div className="info">
         <div className="location">
@@ -35,14 +43,14 @@ function About() {
       <Card header="Tech Stack">
         <div className="tag-container">
           <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
-          <Tag name="JavaScript" />
+          <Tag name="TypeScript" />
+          <Tag name="HTML" />
+          <Tag name="CSS" />
+          <Tag name="Angular" />
+          <Tag name="React" />
+          <Tag name="LitElement" />
+          <Tag name="Node.js" />
+          <Tag name="Git" />
         </div>
       </Card>
       <Card header="Experience History">
@@ -63,11 +71,6 @@ function About() {
         ></Timeline>
       </Card>
       <Card header="Education">
-        <Timeline
-          title="2016 - 2020"
-          subTitle="BS in Information Systems"
-          content="University of Texas at Arlington"
-        ></Timeline>
         <Timeline
           title="2016 - 2020"
           subTitle="BS in Information Systems"

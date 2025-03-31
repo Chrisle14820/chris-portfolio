@@ -23,9 +23,6 @@ function Layout() {
           <a href="http://www.linkedin.com/in/christopherle2">
             <FaGithub size={24} />
           </a>
-          <a href="https://cdlephotos.com/">
-            <FaBlog size={24} />
-          </a>
         </div>
       </footer>
     </>

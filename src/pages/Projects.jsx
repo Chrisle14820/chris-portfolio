@@ -21,7 +21,7 @@ function Projects() {
           <div className="exp">
             <RowCard>
               <div className="title-container">
-                <h5>American Airlines</h5>
+                <h5>American Airlines | Associate Software Developer</h5>
                 <p>Nov 2022 - Present</p>
               </div>
               <div className="exp-desc">
@@ -43,118 +43,73 @@ function Projects() {
                   </li>
                   <li>
                     <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
+                      Built automated test suites with Jest and Cypress,
+                      increasing test coverage, reducing bugs, and accelerating
+                      development cycles.
                     </p>
                   </li>
                   <li>
                     <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
+                      Established a versioning process for the Homepage Single
+                      Page Application (SPA) using GitHub Actions CI/CD
+                      pipeline, facilitating seamless releases with consistent
+                      versioning across deployments.
                     </p>
                   </li>
                 </ul>
               </div>
               <div className="lang-tags">
                 <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
+                <Tag name="TypeScript" />
+                <Tag name="HTML" />
+                <Tag name="CSS" />
+                <Tag name="Angular" />
+                <Tag name="LitElement" />
               </div>
             </RowCard>
             <RowCard>
               <div className="title-container">
-                <h5>American Airlines</h5>
-                <p>Nov 2022 - Present</p>
+                <h5>American Airlines | JavaScript Developer</h5>
+                <p>May 2022 - Nov 2022</p>
               </div>
               <div className="exp-desc">
                 <ul>
                   <li>
                     <p>
-                      Developed framework-agnostic web components for AA.com,
-                      enhancing the user experience resulting in over 20 million
-                      interactions per month and driving over $1 billion in
-                      sales.
+                      Optimized user experiences through data-driven A/B testing
+                      with Adobe Experience Manager, increasing conversion rates
+                      using actionable insights.
                     </p>
                   </li>
                   <li>
                     <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
+                      Analyzed A/B test results to identify user behavior
+                      patterns, leading to performance improvements and
+                      measurable business growth.
                     </p>
                   </li>
                   <li>
                     <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
+                      Designed and launched three high-impact Citi credit card
+                      ad banners on AA.com, boosting engagement and
+                      click-through rates.
                     </p>
                   </li>
                   <li>
                     <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
+                      Collaborated with designers and stakeholders to align ad
+                      creatives with brand identity and marketing goals,
+                      ensuring a cohesive user experience.
                     </p>
                   </li>
                 </ul>
               </div>
               <div className="lang-tags">
                 <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-              </div>
-            </RowCard>
-            <RowCard>
-              <div className="title-container">
-                <h5>American Airlines</h5>
-                <p>Nov 2022 - Present</p>
-              </div>
-              <div className="exp-desc">
-                <ul>
-                  <li>
-                    <p>
-                      Developed framework-agnostic web components for AA.com,
-                      enhancing the user experience resulting in over 20 million
-                      interactions per month and driving over $1 billion in
-                      sales.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Implemented monitoring and logging solutions using
-                      Dynatrace and Mezmo, reducing downtime and improving error
-                      detection to enhance system reliability.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div className="lang-tags">
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
-                <Tag name="JavaScript" />
+                <Tag name="HTML" />
+                <Tag name="CSS" />
+                <Tag name="A/B Testing" />
+                <Tag name="Adobe Experience" />
               </div>
             </RowCard>
           </div>
