@@ -1,8 +1,14 @@
 {
   "name": "chris-portfolio",
-  "private": true,
+  "description": "Create an automatic portfolio based on GitHub profile",
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": "chrisle14820",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chrisle14820/chris-portfolio.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
