@@ -11,9 +11,9 @@ function App() {
       <Routes>
         <Route path="/chris-portfolio/" element={<Layout />}>
           <Route index element={<Projects />} />
-          <Route path="/chris-portfolio/contact/" element={<Contact />} />
+          <Route path="/chris-portfolio/contact" element={<Contact />} />
           <Route
-            path="/chris-portfolio/repositories/"
+            path="/chris-portfolio/repositories"
             element={<Repositories />}
           />
         </Route>
