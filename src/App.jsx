@@ -11,8 +11,11 @@ function App() {
       <Routes>
         <Route path="/chris-portfolio/" element={<Layout />}>
           <Route index element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="repositories" element={<Repositories />} />
+          <Route path="/chris-portfolio/contact/" element={<Contact />} />
+          <Route
+            path="/chris-portfolio/repositories/"
+            element={<Repositories />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
