@@ -7,7 +7,7 @@ import Repositories from "./pages/Repositories/Repositories";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/chris-portfolio">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Projects />} />
