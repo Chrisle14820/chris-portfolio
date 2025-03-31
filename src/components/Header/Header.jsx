@@ -1,5 +1,6 @@
 import "./Header.css";
 import { VscRepo } from "react-icons/vsc";
+import { Link } from "react-router";
 
 function Header() {
   return (
@@ -7,22 +8,22 @@ function Header() {
       <nav className="nav-container">
         <ul className="nav-body">
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/">
               <VscRepo />
               <span>Overview</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="repositories">
+            <Link className="nav-link" to="/repositories">
               <VscRepo />
               <span>Repositories</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="contact">
+            <Link className="nav-link" to="/contact">
               <VscRepo />
               <span>Contact</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
