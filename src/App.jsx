@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="repositories" element={<Repositories />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/repositories" element={<Repositories />} />
         </Route>
       </Routes>
     </HashRouter>
