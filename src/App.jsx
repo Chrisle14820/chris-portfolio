@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { Routes, Route, HashRouter } from "react-router";
 import Layout from "./Layout";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact/Contact";
@@ -7,18 +7,15 @@ import Repositories from "./pages/Repositories/Repositories";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/chris-portfolio/" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Projects />} />
-          <Route path="/chris-portfolio/contact" element={<Contact />} />
-          <Route
-            path="/chris-portfolio/repositories"
-            element={<Repositories />}
-          />
+          <Route path="contact" element={<Contact />} />
+          <Route path="repositories" element={<Repositories />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
