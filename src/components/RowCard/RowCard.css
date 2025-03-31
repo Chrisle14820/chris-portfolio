@@ -8,18 +8,6 @@
   box-shadow: 0 10px 15px -3px;
   background-color: white;
 
-  .left-container {
-    max-width: 150px;
-    border-radius: 25%;
-    overflow: hidden;
-
-    img {
-      width: 100%;
-      object-fit: cover;
-      aspect-ratio: 1 / 1;
-    }
-  }
-
   .right-container {
     display: flex;
     flex-direction: column;
