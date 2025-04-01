@@ -45,6 +45,12 @@
     justify-content: space-between;
   }
 
+  span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
   a {
     color: inherit;
   }

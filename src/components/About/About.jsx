@@ -29,18 +29,28 @@ function About() {
       </div>
       <div className="info">
         <div className="location">
-          <CiLocationOn size={24} />
-          <span>Dallas, TX</span>
+          <span>
+            <CiLocationOn size={16} /> <p>Location</p>
+          </span>
+          <p>Dallas, TX</p>
         </div>
         <div className="email">
-          <CiMail size={24} />
+          <span>
+            <CiMail size={16} />
+            <p>Email</p>
+          </span>
           <a href="mailto:ChristopherAnhDLe@gmail.com">
-            ChristopherAnhDLe@gmail.com
+            <p>ChristopherAnhDLe@gmail.com</p>
           </a>
         </div>
         <div className="phone">
-          <CiPhone size={24} />
-          <a href="tel:972-804-2797">(972) 804-2797</a>
+          <span>
+            <CiPhone size={16} />
+            <p>Phone Number</p>
+          </span>
+          <a href="tel:972-804-2797">
+            <p>(972) 804-2797</p>
+          </a>
         </div>
       </div>
       <Card header="Tech Stack">
