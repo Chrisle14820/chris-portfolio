@@ -14,4 +14,7 @@
 .container {
   display: flex;
   gap: 24px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
