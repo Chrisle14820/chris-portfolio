@@ -4,8 +4,8 @@
   gap: 12px;
   border-radius: 6px;
   padding: 16px;
-  box-shadow: 0 10px 15px -3px;
-  background-color: white;
+  box-shadow: 0 10px 15px -3px var(--secondary-color);
+  background-color: var(--background-color);
 }
 
 .project-lang {
@@ -23,4 +23,5 @@
 .project-footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }

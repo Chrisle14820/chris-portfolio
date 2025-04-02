@@ -1,6 +1,6 @@
 .header-container {
   position: relative;
-  border-bottom: 2px solid #213547;
+  border-bottom: 2px solid var(--secondary-color);
   margin-bottom: 12px;
 
   ul {

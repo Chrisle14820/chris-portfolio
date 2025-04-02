@@ -1,9 +1,8 @@
 .projects-section {
-  flex: 2 1 0;
+  flex-basis: 70%;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-width: 1200px;
 }
 
 .project-card-wrapper {
@@ -30,4 +29,12 @@
   display: flex;
   gap: 8px;
   margin-top: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .project-card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -5,7 +5,7 @@ function RowCard({ children }) {
   return (
     <>
       <div className="row-card-container">
-        <div className="right-container">{children}</div>
+        {children}
       </div>
     </>
   );

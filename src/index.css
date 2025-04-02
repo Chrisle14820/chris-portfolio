@@ -1,11 +1,24 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #213547;
-  background-color: #e6e5e5;
+  --background-color: #ffffff;
+  --text-color: #2C3D55;
+  --primary-color: #3E4C5E;
+  --secondary-color: #536271;
+  --accent-color: #E6E5E5;
 
-  /* color-scheme: light dark; */
+  --button-bg: var(--primary-color);
+  --button-text: #ffffff;
+  --card-bg: #f8f9fa;
+  --card-border: var(--secondary-color);
+  --link-color: var(--primary-color);
+
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;  line-height: 1.5;
+  font-weight: 400;
+  /* color: var(--text-color); */
+  /* background-color: #e6e5e5; */
+
+  color-scheme: light dark;
   /* color: rgba(255, 255, 255, 0.87);
   background-color: #242424; */
   /* background-color: #e6e5e5; */
@@ -15,12 +28,56 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* [data-theme="dark"] {
+  --background-color: #2C3D55;
+  --text-color: #ffffff;
+  --primary-color: #E6E5E5;
+  --secondary-color: #536271;
+  --accent-color: #3E4C5E;
+
+  --button-bg: var(--primary-color);
+  --button-text: var(--text-color);
+  --card-bg: #3E4C5E;
+  --card-border: var(--accent-color);
+  --link-color: var(--accent-color);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #2C3D55;
+    --text-color: #ffffff;
+    --primary-color: #E6E5E5;
+    --secondary-color: #536271;
+    --accent-color: #3E4C5E;
+  
+    --button-bg: var(--secondary-color);
+    --button-text: var(--text-color);
+    --card-bg: #3E4C5E;
+    --card-border: var(--accent-color);
+    --link-color: var(--accent-color);
+  }
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
 /* 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #e6e5e5;
   }
+} */
+
+/* <weight>: Use a value from 300 to 700
+<uniquifier>: Use a unique and descriptive class name */
+/* .space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 } */
 
 h3 {
@@ -38,6 +95,7 @@ p {
 
 ul {
   margin: unset;
+  padding-left: 15px;
 }
 
 a {

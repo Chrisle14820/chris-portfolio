@@ -15,9 +15,9 @@ function About() {
             alt="Profile picture"
           />
         </div>
-        <div className="name">Chris Le</div>
+        <div className="name"><h3>Chris Le</h3></div>
         <div className="job-title">
-          Frontend Developer | JavaScript Developer | Project Engineer
+          <h5>Frontend Developer | JavaScript Developer | Project Engineer</h5>
         </div>
         <a
           className="resume-button"
