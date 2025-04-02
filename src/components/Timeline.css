@@ -13,7 +13,7 @@
   width: 2px;
   display: block;
   content: "";
-  background-color: #3d444db3;
+  background-color: var(--secondary-color);
   z-index: 0;
 }
 
@@ -22,7 +22,4 @@
   right: 7px;
   z-index: 2;
   margin-top: 1px;
-}
-
-.timeline-content {
 }
