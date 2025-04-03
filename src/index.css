@@ -6,6 +6,7 @@
   --accent-color: #E6E5E5;
 
   --button-bg: var(--primary-color);
+  --button-hover-bg: var(--secondary-color);
   --button-text: #ffffff;
   --card-bg: #f8f9fa;
   --card-border: var(--secondary-color);
@@ -15,13 +16,8 @@
   font-optical-sizing: auto;
   font-style: normal;  line-height: 1.5;
   font-weight: 400;
-  /* color: var(--text-color); */
-  /* background-color: #e6e5e5; */
 
   color-scheme: light dark;
-  /* color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
-  /* background-color: #e6e5e5; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -63,22 +59,6 @@ body {
   background: var(--background-color);
   color: var(--text-color);
 }
-/* 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #e6e5e5;
-  }
-} */
-
-/* <weight>: Use a value from 300 to 700
-<uniquifier>: Use a unique and descriptive class name */
-/* .space-grotesk-<uniquifier> {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
 
 h3 {
   margin: unset;
@@ -102,14 +82,3 @@ a {
   text-decoration: unset;
   color: #4493f8;
 }
-
-/* button {
-  background: none;
-  color: inherit;
-  border: 1px solid inherit;
-  border-radius: 6px;
-  padding: 4px 12px;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-} */

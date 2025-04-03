@@ -1,8 +1,8 @@
 import "./Projects.css";
-import Card from "../components/Card";
-import Tag from "../components/Tag";
-import RowCard from "../components/RowCard/RowCard";
-import ProjectCard from "../components/ProjectCard/ProjectCard";
+import Card from "../../components/Card";
+import Tag from "../../components/Tag";
+import RowCard from "../../components/RowCard/RowCard";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 function Projects() {
   return (
@@ -10,10 +10,6 @@ function Projects() {
       <div className="projects-section">
         <Card header="Projects" addButton={true}>
           <div className="project-card-wrapper">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
             <ProjectCard />
           </div>
         </Card>
@@ -65,6 +61,8 @@ function Projects() {
                 <Tag name="CSS" />
                 <Tag name="Angular" />
                 <Tag name="LitElement" />
+                <Tag name="Cypress" />
+                <Tag name="Java" />
               </div>
             </RowCard>
             <RowCard>
