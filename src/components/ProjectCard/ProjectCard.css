@@ -25,3 +25,24 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.project-group {
+  margin-bottom: auto;
+}
+
+.project-info {
+  display: flex;
+  gap: 24px;
+
+  .fork-count {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .watch-count {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+}

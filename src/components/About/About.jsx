@@ -21,10 +21,10 @@ function About() {
         </div>
         <a
           className="resume-button"
-          href="../src/assets/ChrisLeResume.pdf"
-          download
+          href="/chris-portfolio/src/assets/ChrisLeResume.pdf"
+          target="_blank"
         >
-          <FaDownload /> Download Resume
+          <FaDownload /> Preview Resume
         </a>
       </div>
       <div className="info">
