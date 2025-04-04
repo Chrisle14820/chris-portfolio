@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
+  flex-wrap: wrap;
 }
 
 .project-title {
@@ -43,6 +44,13 @@
   .watch-count {
     display: flex;
     align-items: center;
+    gap: 4px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-footer {
+    flex-direction: column;
     gap: 4px;
   }
 }
