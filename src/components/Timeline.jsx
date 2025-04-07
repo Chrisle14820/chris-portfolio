@@ -11,7 +11,7 @@ function Timeline({ title, subTitle, content }) {
             <p>{title}</p>
           </div>
           <div className="timeline-body">
-            <h5>{subTitle}</h5>
+            <h4>{subTitle}</h4>
             <p>{content}</p>
           </div>
         </div>

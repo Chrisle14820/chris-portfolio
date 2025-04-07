@@ -17,7 +17,7 @@ function Projects() {
           <div className="exp">
             <RowCard>
               <div className="title-container">
-                <h5>American Airlines | Associate Software Developer</h5>
+                <h4>American Airlines | Associate Software Developer</h4>
                 <p>Nov 2022 - Present</p>
               </div>
               <div className="exp-desc">
@@ -67,7 +67,7 @@ function Projects() {
             </RowCard>
             <RowCard>
               <div className="title-container">
-                <h5>American Airlines | JavaScript Developer</h5>
+                <h4>American Airlines | JavaScript Developer</h4>
                 <p>May 2022 - Nov 2022</p>
               </div>
               <div className="exp-desc">

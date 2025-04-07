@@ -10,14 +10,12 @@
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  /* border-radius: 6px; */
   padding: 16px;
-  /* background-color: #fff6; */
-  /* box-shadow: 0 10px 15px -3px; */
   border-bottom: 2px solid var(--secondary-color);
 }
 
 .profile-pic {
+  display: flex;
   max-width: 260px;
   border-radius: 50%; /* Make it a circle */
   border: 2px solid var(--secondary-color);

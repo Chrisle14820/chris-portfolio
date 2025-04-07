@@ -4,22 +4,37 @@ import Tag from "../Tag";
 import Timeline from "../Timeline";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
 import { FaEye } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 function About() {
+  const [avatar, setAvatar] = useState();
+  useEffect(() => {
+    const fetchAvatar = async () => {
+      try {
+        const response = await fetch(
+          "https://api.github.com/users/Chrisle14820/repos"
+        );
+        const data = await response.json();
+
+        setAvatar(data[0].owner.avatar_url);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+    fetchAvatar();
+  }, []);
+
   return (
     <div className="about-section">
       <div className="profile">
         <div className="profile-pic">
-          <img
-            src="https://i.postimg.cc/q7RhChZh/DSC02019.jpg"
-            alt="Profile picture"
-          />
+          <img src={avatar} alt="Profile picture" />
         </div>
         <div className="name">
           <h3>Chris Le</h3>
         </div>
         <div className="job-title">
-          <h5>Frontend Developer | JavaScript Developer | Project Engineer</h5>
+          <h4>Frontend Developer | JavaScript Developer | Project Engineer</h4>
         </div>
         <a
           className="resume-button"
