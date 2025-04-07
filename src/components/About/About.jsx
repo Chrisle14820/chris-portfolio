@@ -38,7 +38,7 @@ function About() {
         </div>
         <a
           className="resume-button"
-          href="/chris-portfolio/src/assets/ChrisLeResume.pdf"
+          href="https://drive.google.com/file/d/12kv2Za2oBn7c1_wHk3Q-UrHythyHOKaX/view?usp=sharing"
           target="_blank"
         >
           <FaEye /> Preview Resume
