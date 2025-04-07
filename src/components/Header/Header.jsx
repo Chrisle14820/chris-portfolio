@@ -1,5 +1,6 @@
 import "./Header.css";
 import { VscRepo } from "react-icons/vsc";
+import { CiMail } from "react-icons/ci";
 import { Link } from "react-router";
 
 function Header() {
@@ -13,15 +14,15 @@ function Header() {
               <span>Overview</span>
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/repositories">
               <VscRepo />
               <span>Repositories</span>
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/contact">
-              <VscRepo />
+              <CiMail />
               <span>Contact</span>
             </Link>
           </li>
