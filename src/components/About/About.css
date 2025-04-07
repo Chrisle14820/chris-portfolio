@@ -55,6 +55,12 @@
   }
 }
 
+.resume-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .job-title {
   text-align: center;
 }

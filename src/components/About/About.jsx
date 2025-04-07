@@ -3,7 +3,7 @@ import Card from "../Card";
 import Tag from "../Tag";
 import Timeline from "../Timeline";
 import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
-import { FaDownload } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa";
 
 function About() {
   return (
@@ -15,7 +15,9 @@ function About() {
             alt="Profile picture"
           />
         </div>
-        <div className="name"><h3>Chris Le</h3></div>
+        <div className="name">
+          <h3>Chris Le</h3>
+        </div>
         <div className="job-title">
           <h5>Frontend Developer | JavaScript Developer | Project Engineer</h5>
         </div>
@@ -24,7 +26,7 @@ function About() {
           href="/chris-portfolio/src/assets/ChrisLeResume.pdf"
           target="_blank"
         >
-          <FaDownload /> Preview Resume
+          <FaEye /> Preview Resume
         </a>
       </div>
       <div className="info">
