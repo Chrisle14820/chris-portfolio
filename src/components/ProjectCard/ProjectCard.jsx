@@ -50,7 +50,7 @@ function ProjectCard() {
             </div>
             <div className="project-footer">
               <div className="project-lang">
-                <Tag name={repo.languages} />
+                {repo.languages ? <Tag name={repo.languages} /> : null}
               </div>
               <div className="project-info">
                 <span className="fork-count">
