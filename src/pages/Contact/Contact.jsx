@@ -53,8 +53,8 @@ function Contact() {
                 type="tel"
                 name="phone"
                 id="phone"
-                placeholder="000-000-0000"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="10-digit phone number"
+                pattern="[0-9]{10}"
                 required
               />
             </div>
