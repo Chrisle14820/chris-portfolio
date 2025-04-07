@@ -44,11 +44,15 @@
   :root {
     --background-color: #2c3d55;
     --text-color: #ffffff;
-    --primary-color: #e6e5e5;
+    /* --primary-color: #e6e5e5;
     --secondary-color: #536271;
-    --accent-color: #3e4c5e;
+    --accent-color: #3e4c5e; */
+    --primary-color: #536271;
+    --secondary-color: #3e4c5e;
+    --accent-color: #e6e5e5;
 
-    --button-bg: var(--secondary-color);
+    --button-bg: var(--primary-color);
+    --button-hover-bg: var(--secondary-color);
     --button-text: var(--text-color);
     --card-bg: #3e4c5e;
     --card-border: var(--accent-color);
@@ -86,4 +90,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+button {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+input {
+  font-family: "Space Grotesk", sans-serif;
 }
